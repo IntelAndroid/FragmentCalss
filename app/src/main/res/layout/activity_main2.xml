@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.fragmentcalss.Main2Activity">
+    <EditText
+        android:hint="@string/app_name"
+        android:id="@+id/view_main2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/butt_main2"
+        android:text="按键"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:id="@+id/layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <fragment
+
+        android:id="@+id/tag"
+        android:name="com.example.android.fragmentcalss.Fragmentstill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </fragment>
+</LinearLayout>
